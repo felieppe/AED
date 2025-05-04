@@ -1,0 +1,13 @@
+Insertar (dato, clave):
+Comienza
+	nodo <- nuevo nodo(dato, clave)
+	si esVacia() entonces
+		primero <- nodo
+	sino
+		auxiliar <- primero
+		mientras auxiliar.siguiente <> nulo hacer
+			auxiliar <- auxiliar.siguiente
+		fin mientras
+		auxiliar.siguiente <- nodo
+	fin si
+Termina
