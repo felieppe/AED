@@ -1,0 +1,38 @@
+1) Primero lo que hacemos es plantear el problema presente en lenguaje natural. Para eso establecemos que el problema nos pide un algoritmo que tome una lista de elementos y devuelva una lista nueva con los elementos en orden inverso. 
+
+2) Después planteamos las pre y post condiciones las cuales son las siguientes:
+Precondiciones - Necesitamos una lista con la cantidad n de elementos, donde n puede ser cualquier numero entero no negativo.  
+
+Postcodiciones - Devolver una nueva lista que contenga los mismos elementos que la lista inicial con la diferencia de que tienen que estar en orden inverso.
+
+3) Seudocodigo
+
+Comienzo 
+Funcion InvertirLista(listaEntrada)
+	listaInvertida = nueva lista vacia 
+	Para cada e de listaEntrada
+		Insertar e al comienzo de listaInvertida
+	Fin para
+	Devolver listaInvertida 
+Fin funcion
+
+Una posible mejora a este pseudocodigo sería el considerar los caso de tipo borde, como por ejemplo que la lista de entrada este vacía.
+
+Comienzo 
+Funcion InvertirLista(listaEntrada)
+	listaInvertida = nueva lista vacia 
+	Si listaEntrada esta vacia
+		Devolver la listaInvertida esta vacia 
+	Fin Si	
+
+	listaInvertida = nueva lista vacia 
+	Para cada e de listaEntrada
+		Insertar e al comienzo de listaInvertida
+	Fin para
+	Devolver listaInvertida 
+Fin funcion
+
+4) Los disitintos casos de prueba seran los siguientes:
+Caso de prueba 1: Lista vacía ([]) debe retornar [].
+Caso de prueba 2: Lista con un solo elemento ([1]) debe retornar [1].
+Caso de prueba 3: Lista con varios elementos ([1, 2, 3]) debe retornar [3, 2, 1].
