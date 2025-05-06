@@ -1,0 +1,18 @@
+1)Algoritmo controlCorchetes(lista de entrada)
+    Crear una pila vacía
+    Para cada carácter en la lista de entrada hacer
+        Si el carácter es '{' entonces
+            Apilar en la pila el carácter
+        Sino
+            Si la pila está vacía entonces
+                Devolver FALSO
+            FinSi
+            Desapilar un elemento de la pila
+        FinSi
+    FinPara
+    Si la pila está vacía entonces
+        Devolver VERDADERO
+    Sino
+        Devolver FALSO
+    FinSi
+FinAlgoritmo

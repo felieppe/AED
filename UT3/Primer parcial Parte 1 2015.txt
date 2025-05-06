@@ -1,0 +1,71 @@
+Ejercicio 1
+	Desarrollar un algoritmo (comportamiento de TDA LISTA_ORDENADA) que, recibiendo como parámetro otra
+LISTA ORDENADA, mezcle ambas en una LISTA ORDENADA de salida. Calcular el orden del tiempo de
+ejecución del algoritmo.
+
+Algoritmo LISTA_ORDENADA
+    lista1 = [0, 1, 2, 3, 4, 7]
+    lista2 = [0, 2, 5, 8]
+    listaOrdenada3 = []
+
+    Si (longitud de lista1 == 0) y (longitud de lista2 == 0) entonces
+        Devolver "Las listas se encuentran vacías"
+    FinSi
+
+    i = 1
+    j = 1
+
+    Mientras i <= longitud de lista1 y j <= longitud de lista2 hacer
+        Si lista1[i] < lista2[j] entonces
+            Agregar lista1[i] a listaOrdenada3
+            i = i + 1
+        Sino
+            Si lista1[i] > lista2[j] entonces
+                Agregar lista2[j] a listaOrdenada3
+                j = j + 1
+            Sino
+                // Si los elementos son iguales, agregar uno y mover ambos índices
+                Agregar lista1[i] a listaOrdenada3
+                i = i + 1
+                j = j + 1
+            FinSi
+        FinSi
+    FinMientras
+
+    // Agregar los elementos restantes si alguna lista aún tiene elementos
+    Mientras i <= longitud de lista1 hacer
+        Agregar lista1[i] a listaOrdenada3
+        i = i + 1
+    FinMientras
+
+    Mientras j <= longitud de lista2 hacer
+        Agregar lista2[j] a listaOrdenada3
+        j = j + 1
+    FinMientras
+
+    Devolver listaOrdenada3
+FinAlgoritmo
+
+El tiempo de ejercucion de este algoritmo es de orden: O(n + m), esto debido a que depende de la longitud de la lista. Considerando que la longitud de la lista1 es n, y considerando que la longitud de la lista2 es m, suamriamos el orden de amabas para obtener el orden del algoritmo(siendo orden n, ya que el tiempo de ejecucion depende de la cantidad de elementos que tenga n + m). Mientras que de O(1), significa que el tiempo de ejecución no depende del tamaño del input. El algoritmo ejecuta un número fijo de pasos independientemente del tamaño del input. 
+
+
+Ejercicio 2
+	Desarrollar un algoritmo (comportamiento de TDA LISTA) que elimine de la misma los elementos con clave
+duplicada. Calcular el orden del tiempo de ejecución del algoritmo.
+
+
+Algoritmo EliminarDuplicados 
+    lista = [0, 0, 1, 2, 3, 3, 4, 5, 7]
+    listaSinDuplicados = []
+
+    Para cada elemento en lista hacer
+        Si elemento no está en listaSinDuplicados entonces
+            Agregar elemento a listaSinDuplicados
+        FinSi
+    FinPara
+
+    Devolver listaSinDuplicados
+Fin Algoritmo
+
+
+El tiempo de ejecución de este algoritmo es en O(N a la dos), esto debido a que el bucle para se ejecuta dependiendo del tamaño de las lista, siendo asi que se compara la listaSinDuplicados cuantas veces sea necesario sin contar la primera. En terminos de notación Big O, que describe el comportamiento asintótico de la complejidad, ignoramos los coeficientes y términos no dominantes.
