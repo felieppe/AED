@@ -1,0 +1,28 @@
+Pregunta 1: Análisis de Estructuras de Datos Previamente Estudiadas
+
+Listas:
+- Implementación: En una lista, las palabras del texto se añaden secuencialmente junto con sus números de página. La búsqueda implica recorrer la lista desde el inicio hasta encontrar la palabra deseada.
+- Ventajas: Las listas son simples de implementar y manejar, siendo adecuadas para conjuntos de datos donde el orden de inserción es relevante.
+- Desventajas: La eficiencia de búsqueda en listas es lineal (O(n)), lo cual las hace inadecuadas para grandes volúmenes de datos o búsquedas frecuentes.
+
+Colas:
+- Implementación: Usar colas para indexar palabras es inusual, pero podrían emplearse para procesar palabras en el orden en que aparecen en el texto, agregando cada palabra y su página a la cola.
+- Ventajas: Las colas manejan bien los datos en secuencias de procesamiento FIFO (First In, First Out).
+- Desventajas: Al igual que las listas, las colas no facilitan la búsqueda rápida de elementos, ya que no están diseñadas para búsquedas aleatorias o indexación eficiente.
+
+Árboles (Árboles Binarios de Búsqueda - AVL):
+- Implementación: Un árbol binario de búsqueda podría almacenar palabras de manera que cada inserción o búsqueda divida potencialmente a la mitad el espacio de búsqueda, usando la estructura de árbol para mantener las palabras en orden.
+- Ventajas: Los AVL permiten búsquedas, inserciones y eliminaciones en tiempo logarítmico (O(log n)), mucho más rápido que las listas o colas para conjuntos de datos grandes.
+- Desventajas: Los AVL pueden desbalancearse dependiendo del orden de inserción, lo que podría degradar su rendimiento a O(n) en el peor caso.
+
+Comparación con TRIE:
+Tanto las listas como las colas son inferiores en términos de búsqueda comparadas con los tries, que proporcionan tiempos de búsqueda extremadamente rápidos y eficientes para palabras dentro de un conjunto de texto, especialmente cuando las palabras comparten prefijos comunes. Los ABB ofrecen una comparación más cercana en términos de eficiencia de búsqueda, pero los tries superan en manejar prefijos y en la velocidad general de búsqueda y almacenamiento de grandes volúmenes de palabras.
+
+Pregunta 2: Recomendación para Archivos Pequeños
+
+Para conjuntos de datos pequeños, como archivos que contienen solo unas decenas de líneas, la elección de la estructura de datos debería basarse en la simplicidad y facilidad de implementación más que en la eficiencia de ejecución. En estos casos:
+
+Listas:
+- Las listas pueden ser completamente adecuadas para manejar este volumen de datos. La simplicidad de añadir elementos al final de la lista y la facilidad relativa de búsqueda (dado el bajo volumen de datos) las hacen una opción razonable.
+Recomendación:
+- Aunque un trie sigue siendo una excelente opción en términos de escalabilidad y eficiencia, para proyectos pequeños o prototipos rápidos donde la carga de datos es mínima y no se espera que crezca significativamente, usar una lista podría simplificar el desarrollo sin sacrificar un rendimiento notable.

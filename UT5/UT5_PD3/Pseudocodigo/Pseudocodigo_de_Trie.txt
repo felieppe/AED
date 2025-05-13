@@ -1,0 +1,57 @@
+Pseudocodigo de Trie
+
+Algoritmo InsrtarEnTrie(palabra, pagina) 
+//Entrada: Una palabra y el numero de página asociado
+//Salida: (modifica el Trie)
+
+Inicio
+	nodoActual = raíz
+	Para cada i en palabra hacer
+		Si nodoActual no tienen un hijo con ese carácter entonces
+			Agregar un nuevo hijo con ese carácter entonces
+			Avanzar nodoActual al hijo con ese carácter
+		FinSi
+	FinPara
+	Marcar nodoActual como fin de palabra
+	Agregar la pagina a las paginas de nodoActual
+Fin
+
+
+Algoritmo BuscarEnTrie(palabra)
+Entrada: Una palabra a buscar en el Trie
+Salida: Una lista de páginas donde aparece la palabra, o una lista vacía si no se encuentra
+
+Inicio
+    nodoActual = raiz
+    Para cada caracter en palabra hacer
+        Si nodoActual no tiene un hijo con ese caracter entonces
+            Devolver una lista vacía (palabra no encontrada)
+        Avanzar nodoActual al hijo con ese caracter
+    Fin Para
+    Si nodoActual es nulo o no es fin de palabra entonces
+        Devolver una lista vacía (palabra no encontrada)
+    Devolver las páginas de nodoActual
+Fin
+
+Algoritmo ObtenerTodasLasPalabras()
+Entrada: Ninguna
+Salida: Una lista de todas las palabras almacenadas en el Trie
+
+Inicio
+    palabras = lista vacía
+    Llamar a ObtenerTodasLasPalabrasRecursivo(raiz, "", palabras)
+    Devolver palabras
+Fin
+
+Algoritmo ObtenerTodasLasPalabrasRecursivo(nodo, prefijo, palabras)
+Entrada: Un nodo Trie, un prefijo actual y una lista para almacenar las palabras encontradas
+Salida: Ninguna (modifica la lista de palabras)
+
+Inicio
+    Si nodo es nulo entonces retornar
+    Si nodo es fin de palabra entonces
+        Agregar el prefijo a palabras
+    Para cada hijo en los hijos de nodo hacer
+        Llamar recursivamente a ObtenerTodasLasPalabrasRecursivo con el hijo, prefijo + caracter del hijo y palabras
+    Fin Para
+Fin
