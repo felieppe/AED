@@ -1,0 +1,16 @@
+Función Insertar(unaEtiqueta, etiquetaPadre)
+    Si etiquetaPadre es vacío
+        Si árbol tiene raíz
+            retorna falso
+        Sino
+            establece nueva raíz con unaEtiqueta
+            retorna verdadero
+    Sino
+        Encuentra nodo con etiqueta etiquetaPadre
+        Si nodo encontrado
+            Crea nuevo nodo con unaEtiqueta
+            Agrega nuevo nodo como hijo del nodo encontrado
+            Retorna verdadero
+        Sino
+            Retorna falso
+Fin Función

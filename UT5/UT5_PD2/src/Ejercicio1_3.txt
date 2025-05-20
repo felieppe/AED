@@ -1,0 +1,20 @@
+Respuestas a las preguntas:
+
+-¿Cuántas comparaciones realiza el algoritmo de búsqueda si el argumento es “Programa”?
+El número de comparaciones es igual a la longitud de la palabra "Programa", es decir, 8.
+
+-¿Cuántas comparaciones realiza el algoritmo de búsqueda si el argumento es “Proselitismo”?
+El número de comparaciones es igual a la longitud de la palabra "Proselitismo", es decir, 12.
+
+-¿Cuántas comparaciones se realizan para insertar la palabra “cazadores”?
+El número de comparaciones es igual a la longitud de la palabra "cazadores", es decir, 9.
+
+-¿Cuál es la altura del árbol trie resultante?
+La altura del árbol trie dependerá de la distribución de las palabras en el texto, pero será igual 
+a la longitud de la palabra más larga. En este caso, la palabra más larga es "Proselitismo" con longitud 
+12, por lo que la altura del árbol será 12.
+
+-¿Cuál es su tamaño?
+El tamaño específico del árbol trie resultante para el caso dado, considerando las palabras proporcionadas, 
+es de 60 nodos. Este cálculo se basa en el número total de letras únicas en todas las palabras del texto, más 
+el número de palabras en sí. 

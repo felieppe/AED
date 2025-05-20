@@ -1,0 +1,33 @@
+a- Descripción en lenguaje natural del algoritmo:
+-El algoritmo recorre el texto palabra por palabra.
+-Para cada palabra en el texto, se inserta en el Trie junto con la página en la que aparece.
+-Si la palabra ya existe en el Trie, se actualiza la lista de páginas en la que aparece.
+
+b- Precondiciones y postcondiciones:
+Precondiciones: Se espera que el texto de entrada no sea nulo y que el Trie esté inicializado.
+Postcondiciones: El Trie contendrá todas las palabras del texto, cada una asociada con la lista de páginas en las que aparece.
+
+c- Seudocódigo formal del algoritmo:
+
+Función insertarEnTrie(texto, páginas)
+    trie = nuevo Trie()
+    Para cada palabra en texto hacer:
+        trie.insertar(palabra, páginas)
+    Fin Para
+    Devolver trie
+Fin Función
+
+Función principal()
+    palabras = ["Ala", "Alimaña", "Alabastro", "Perro", "Pera", "Alimento", "Casa", "Casada", "Cazar", "Programa", "Programación", "Programar"]
+    páginas = [[1, 3, 88], [11, 22], [4], [5, 8], [7, 12], [9], [11, 13], [1], [33], [22, 67], [15], [15, 16]]
+    trie = insertarEnTrie(palabras, páginas)
+    imprimirTrie(trie)
+Fin Función
+
+
+
+d- Análisis detallado del orden de tiempo de ejecución del algoritmo:
+
+-Suponiendo que el texto tiene n palabras y el Trie tiene m nodos:
+    -Recorrer cada palabra del texto y buscarla en el Trie para insertarla o actualizarla toma O(n⋅m) en el peor caso.
+    -El tiempo de ejecución puede ser más eficiente dependiendo de la implementación específica del Trie y la forma en que se almacenan las páginas asociadas a cada palabra.

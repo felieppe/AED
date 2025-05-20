@@ -1,0 +1,47 @@
+LN:
+
+El Algoritmo utiliza recursividad para aplicar la busqueda de un nodo en base a una etiqueta, la misma es recibida como parámetro.
+Se divide en dos partes, la primera se ejecuta dentro del arbol, la segunda dentro de los nodos. Siendo en esta ultima en donde se aplica la recursión.
+El algoritmo recorre en base lo establecido en preorden, utilizando la representación en primer hijo/hermano derecho.
+
+Pre:
+Existe un árbol.
+Se recibe una etiqueta a buscar como parámetro.
+
+Pos:
+Devuelve nulo en caso de que el árbol este vacío.
+Devuelve nulo en caso de que la etiqueta no este.
+Devuelve el nodo en caso de que la encuentre.
+El árbol no se ve modificado en ningún momento.
+
+Pseudo Cod:
+
+Buscar:
+
+TArbolGen.buscar(comparable etiqueta): TNodoAG
+COM
+	Si raiz=nulo entonces
+		retornar nulo
+	SiNo
+		retornar raiz.buscar(etiqueta)
+	FinSi
+FIN
+
+TNodoAG.buscar (comparable etiqueta): TNodoAG
+COM
+	Si this.etiqueta = etiqueta entonces
+		retornar this
+	SiNo
+		aux <- this.primerHijo
+		res <- nulo
+		Mientras aux <> nulo hacer
+			res<-aux.buscar(etiqueta)
+			Si res <> nulo entonces
+				return res
+			SiNo
+				aux <- aux.siguienteHrmano
+			FinSi
+		FinMientas
+		retornar res
+	FinSi
+FIN

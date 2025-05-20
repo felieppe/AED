@@ -1,0 +1,89 @@
+
+Ejercicio #3: Implementación y Uso del TDA Conjunto para Alumnos
+
+Descripción en Lenguaje Natural
+
+Vamos a implementar el TDA Conjunto para manejar listados de alumnos en distintos cursos. Este ejercicio requiere:
+
+
+Crear dos instancias del TDA Conjunto para representar dos cursos.
+
+Crear y manejar instancias de alumnos.
+
+Insertar alumnos en los cursos correspondientes.
+
+Realizar operaciones de unión e intersección para obtener listados de alumnos según su matriculación en uno o ambos cursos.
+
+Estructura de la Clase TAlumno
+
+public class TAlumno {
+    private String cedula; // Únicamente los últimos 4 dígitos
+    private String nombre;
+    private String apellido;
+
+    public TAlumno(String cedula, String nombre, String apellido) {
+        this.cedula = cedula;
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+
+    // Getters y Setters
+    public String getCedula() {
+        return cedula;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    @Override
+    public String toString() {
+        return nombre + " " + apellido + " (Cédula: " + cedula + ")";
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        TAlumno alumno = (TAlumno) obj;
+        return Objects.equals(cedula, alumno.cedula);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(cedula);
+    }
+}
+
+Creación y Operaciones sobre Conjuntos de Alumnos
+
+// Crear conjuntos para los cursos AED1 y PF
+IConjunto<TAlumno> aed1 = new Conjunto<>();
+IConjunto<TAlumno> pf = new Conjunto<>();
+
+// Crear algunos alumnos
+TAlumno alumno1 = new TAlumno("1234", "Juan", "Pérez");
+TAlumno alumno2 = new TAlumno("2345", "Ana", "Gonzalez");
+TAlumno alumno3 = new TAlumno("3456", "Luis", "Martinez");
+TAlumno alumno4 = new TAlumno("4567", "Sofia", "Lopez");
+
+// Asignar alumnos a los cursos
+aed1.add(alumno1);
+aed1.add(alumno2);
+pf.add(alumno2);
+pf.add(alumno3);
+pf.add(alumno4);
+
+// Realizar operaciones de unión e intersección
+IConjunto<TAlumno> union = aed1.union(pf);
+IConjunto<TAlumno> interseccion = aed1.interseccion(pf);
+
+// Imprimir resultados
+System.out.println("Unión de alumnos en AED1 y PF:");
+System.out.println(union);
+System.out.println("Intersección de alumnos en AED1 y PF:");
+System.out.println(interseccion);

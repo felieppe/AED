@@ -1,0 +1,91 @@
+Ejercicio #2: Desarrollo del TDA Conjunto basado en TDA Lista
+
+Descripción en Lenguaje Natural
+
+El TDA Conjunto, basado en el TDA Lista, es una estructura de datos que maneja una colección de elementos no duplicados y ordenados. Deberá incluir métodos para realizar operaciones de unión e intersección con otro conjunto, retornando un nuevo conjunto como resultado de la operación.
+
+Interfaz del TDA Conjunto
+public interface IConjunto<T> extends ILista<T> {
+    IConjunto<T> union(IConjunto<T> otroConjunto);
+    IConjunto<T> interseccion(IConjunto<T> otroConjunto);
+}
+
+public class Conjunto<T extends Comparable<T>> implements IConjunto<T> {
+    private List<T> elementos;
+
+    public Conjunto() {
+        this.elementos = new ArrayList<>();
+    }
+
+    @Override
+    public IConjunto<T> union(IConjunto<T> otroConjunto) {
+        Conjunto<T> resultado = new Conjunto<>();
+        int i = 0, j = 0;
+        while (i < this.elementos.size() && j < otroConjunto.size()) {
+            T a = this.elementos.get(i);
+            T b = otroConjunto.get(j);
+            int cmp = a.compareTo(b);
+            if (cmp < 0) {
+                resultado.add(a);
+                i++;
+            } else if (cmp > 0) {
+                resultado.add(b);
+                j++;
+            } else {
+                resultado.add(a);
+                i++;
+                j++;
+            }
+        }
+        while (i < this.elementos.size()) {
+            resultado.add(this.elementos.get(i++));
+        }
+        while (j < otroConjunto.size()) {
+            resultado.add(otroConjunto.get(j++));
+        }
+        return resultado;
+    }
+
+    @Override
+    public IConjunto<T> interseccion(IConjunto<T> otroConjunto) {
+        Conjunto<T> resultado = new Conjunto<>();
+        int i = 0, j = 0;
+        while (i < this.elementos.size() && j < otroConjunto.size()) {
+            T a = this.elementos.get(i);
+            T b = otroConjunto.get(j);
+            int cmp = a.compareTo(b);
+            if (cmp < 0) {
+                i++;
+            } else if (cmp > 0) {
+                j++;
+            } else {
+                resultado.add(a);
+                i++;
+                j++;
+            }
+        }
+        return resultado;
+    }
+
+    private void add(T elemento) {
+        if (!this.elementos.contains(elemento)) {
+            this.elementos.add(elemento);
+            Collections.sort(this.elementos);
+        }
+    }
+
+    private int size() {
+        return this.elementos.size();
+    }
+}
+
+Prueba de Unión:
+
+Conjunto A: {1, 3, 5}
+Conjunto B: {2, 3, 4}
+Resultado esperado: {1, 2, 3, 4, 5}
+Prueba de Intersección:
+
+Conjunto A: {1, 3, 5}
+Conjunto B: {3, 5, 7}
+Resultado esperado: {3, 5}

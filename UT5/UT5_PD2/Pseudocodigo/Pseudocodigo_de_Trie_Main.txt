@@ -1,0 +1,64 @@
+Algoritmo ConstruirIndiceTrie(archivo)
+    Entrada: El nombre del archivo que contiene los datos del índice
+    Salida: Un mapa que representa el índice construido a partir del archivo
+
+    Inicio
+        trie = nuevo Trie() // Crear un nuevo Trie
+        Intentar
+            Abrir el archivo para lectura
+            Leer cada línea del archivo
+                Para cada línea hacer
+                    Separar la línea en partes utilizando la coma como delimitador
+                    Tomar la primera parte como la palabra
+                    Crear una lista de páginas vacía
+                    Para cada parte restante hacer
+                        Convertir la parte a entero y agregarlo a la lista de páginas
+                    Fin Para
+                    Para cada página en la lista de páginas hacer
+                        Insertar la palabra en el Trie junto con la página
+                    Fin Para
+                Fin Para
+        Atrapar cualquier excepción IOException y manejarla
+
+        Construir el índice a partir del Trie llamando a ConstruirIndiceDesdeTrie con el trie como argumento
+
+        Devolver el índice construido
+    Fin
+Algoritmo Main
+    Entrada: Ninguna
+    Salida: Ninguna
+
+    Inicio
+        trie = Nuevo Trie() // Crear una nueva instancia de Trie
+
+        archivo = "UT5_PD2\src\texto.txt" // Definir la ruta del archivo de texto
+
+        Intentar
+            Abrir el archivo para lectura
+            Leer cada línea del archivo
+                Para cada línea hacer
+                    Separar la línea en partes utilizando la coma como delimitador
+                    Tomar la primera parte como la palabra
+                    Crear una lista de páginas vacía
+                    Para cada parte restante hacer
+                        Convertir la parte a entero y agregarlo a la lista de páginas
+                    Fin Para
+                    Para cada página en la lista de páginas hacer
+                        Insertar la palabra en el Trie junto con la página
+                    Fin Para
+                Fin Para
+        Atrapar cualquier excepción IOException y manejarla
+
+        Para cada palabra a buscar ("Alimaña", "Perro", "Programa", "Cazar", "Maru") hacer
+            Buscar la palabra en el Trie y guardar las páginas encontradas
+            Imprimir las páginas encontradas para la palabra
+        Fin Para
+
+        constructorIndice = Nuevo ConstructorIndiceTrie() // Crear una nueva instancia de ConstructorIndiceTrie
+        indice = constructorIndice.construirIndice(archivo) // Construir el índice a partir del archivo
+
+        Imprimir "Índice del texto:"
+        Para cada entrada en el índice hacer
+            Imprimir la palabra y las páginas asociadas
+        Fin Para
+    Fin

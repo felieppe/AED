@@ -1,0 +1,24 @@
+Algoritmo ConstruirIndiceTrie(archivo)
+Entrada: El nombre del archivo que contiene los datos del índice
+Salida: Un mapa que representa el índice construido a partir del archivo
+
+Inicio
+    trie = nuevo Trie()
+    Intentar
+        Abrir el archivo para lectura
+        Leer cada línea del archivo
+        Para cada línea hacer
+            Separar la línea en partes utilizando la coma como delimitador
+            Tomar la primera parte como la palabra
+            Crear una lista de páginas vacía
+            Para cada parte restante hacer
+                Convertir la parte a entero y agregarlo a la lista de páginas
+            Fin Para
+            Para cada página en la lista de páginas hacer
+                Insertar la palabra en el Trie junto con la página
+            Fin Para
+        Fin Para
+    Atrapar cualquier excepción IOException y manejarla
+    Construir el índice a partir del Trie llamando a ConstruirIndiceDesdeTrie con el trie como argumento
+    Devolver el índice construido
+Fin
