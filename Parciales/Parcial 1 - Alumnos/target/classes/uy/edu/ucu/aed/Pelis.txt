@@ -1,0 +1,357 @@
+2008;Crepusculo;Romance;5.2
+2018;La Primera Purga: La Noche de las Bestias;Terror;5.2
+2016;Independence Day: Contraataque;Sci-Fi;5.2
+2018;Slender Man;Terror;3.2
+2017;Emoji: La Pelicula;Animacion;3.4
+1960;Psicosis;Terror;5.6
+2017;La Torre Oscura;Fantasia;5.6
+2018;El Habitante;Terror;5.6
+2018;El Futbol o Yo;Comedia;5.9
+2018;El Rascacielos;Accion;5.9
+2017;Power Rangers;Sci-Fi;5.9
+2019;Annabelle 3: Vuelve a Casa;Terror;5.9
+2019;Polar;Accion;6.3
+2016;La Vida Secreta de tus Mascotas;Animacion;6.5
+2015;La Cumbre Escarlata;Terror;6.5
+2018;Aniquilacion;Sci-Fi;6.8
+2015;Papeles en el Viento;Comedia;6.8
+2018;Abominable;Animacion;7.0
+2015;Cenicienta;Fantasia;6.9
+2016;La Bruja;Terror;6.9
+2011;Capitan America: El Primer Vengador;Accion;6.9
+2012;El Sorprendente Hombre Araña;Accion;6.9
+2019;Capitana Marvel;Accion;6.8
+2013;Thor: Un Mundo Oscuro;Accion;6.8
+2017;Jumanji: En la Selva;Aventura;6.9
+2017;Veronica;Terror;6.2
+2018;La Quietud;Drama;6.1
+2017;La Liga de la Justicia;Sci-Fi;6.1
+2017;La Liga de la Justicia;Accion;6.1
+2019;6 Underground;Accion;6.1
+2018;Cadaver;Terror;5.2
+2019;Proyecto Gemini;Sci-Fi;5.7
+2016;El Hilo Rojo;Romance;5.7
+2019;Cementerio Maldito;Terror;5.7
+2019;Angel Has Fallen;Accion;6.4
+2019;Rojo;Drama;6.4
+2017;Atomic Blonde;Accion;6.7
+2019;Jumanji: Siguiente Nivel;Aventura;6.7
+2018;Venom;Accion;6.7
+2013;Prisioneros;Suspenso;8.1
+2001;Monsters, Inc.;Animacion;8.1
+2016;Permitidos;Comedia;6.6
+2016;Jason Bourne;Accion;6.6
+2019;Aladdin;Fantasia;7.0
+2010;Iron Man 2;Accion;7.0
+2014;Frozen: Fiebre Congelada;Animacion;7.0
+2016;Passengers;Sci-Fi;7.0
+2015;El Clan;Drama;7.0
+2014;Malefica;Fantasia;7.0
+2011;Thor;Accion;7.0
+2019;El Angel;Drama;7.0
+2018;Ant-Man y la Avispa;Accion;7.1
+2013;El Gran Gatsby;Drama;7.2
+2017;Sing: Ven y Canta;Animacion;7.1
+2012;Valiente;Animacion;7.1
+2015;Home: No Hay Lugar Como el Hogar;Animacion;6.6
+2016;Koblic;Drama;6.5
+1999;El Proyecto de la Bruja de Blair;Terror;6.5
+2015;Minions;Animacion;6.4
+2017;American Assassin;Accion;6.2
+2018;Proyecto Rampage;Accion;6.1
+2017;Casi Leyendas;Comedia;6.1
+2019;La Misma Sangre;Suspenso;6.0
+2014;Into the Woods;Fantasia;6.0
+2013;Thor: Un Mundo Oscuro;Accion;6.8
+2008;El Increible Hulk;Accion;6.7
+1998;Armageddon;Accion;6.7
+2018;El Potro, lo Mejor del Amor;Biografico;6.7
+2019;Anna: El Peligro Tiene Nombre;Accion;6.7
+2018;El Justiciero 2;Accion;6.7
+2019;Nosotros;Terror;6.8
+2019;El Rey Leon;Animacion;6.8
+2019;El Rey Leon;Fantasia;6.8
+2015;Babe, el Cerdito Valiente;Familia;6.8
+2015;La Novia Cadaver;Animacion;7.3
+2017;Guardianes de la Galaxia Vol. 2;Sci-Fi;7.6
+2017;Baby Driver;Accion;7.6
+2016;Moana;Animacion;7.6
+2009;Zombieland;Comedia;7.6
+1990;La Sirenita;Animacion;7.6
+2011;El Origen del Planeta de los Simios;Sci-Fi;7.6
+2010;Mi Villano Favorito;Animacion;7.6
+2015;El Puente de los Espias;Drama;7.6
+2006;El Ilusionista;Suspenso;7.6
+2008;Kung Fu Panda;Animacion;7.6
+2015;Star Wars: El Despertar de la Fuerza;Sci-Fi;7.8
+2003;Shrek;Animacion;7.9
+2013;Frozen;Animacion;7.4
+2012;Looper;Sci-Fi;7.4
+2016;The Accountant: El Contador;Accion;7.3
+2004;Saw;Terror;7.6
+1992;Dracula;Terror;7.4
+2017;La Forma del Agua;Fantasia;7.3
+2017;It;Terror;7.3
+2014;El Francotirador;Guerra;7.3
+2017;Un Lugar en Silencio;Terror;7.5
+2012;John Carter;Accion;6.6
+2016;Animales Fantasticos y Donde Encontrarlos;Fantasia;7.4
+2013;Gru 2, Mi Villano Favorito;Animacion;7.4
+2016;Sully;Drama;7.4
+2017;La Bella y la Bestia;Fantasia;7.1
+2012;El Aro;Terror;7.1
+2019;Midsommar;Terror;7.1
+2015;El Principito;Fantasia;7.7
+2013;Gravedad;Sci-Fi;7.7
+2017;Roma;Drama;7.7
+2015;Orgullo y Prejuicio;Romance;7.8
+2016;Zootopia;Animacion;8.0
+2019;Black Panther;Accion;7.3
+2012;Los Vengadores;Accion;8.0
+2014;Guardianes de la Galaxia;Sci-Fi;8.0
+2010;Cisne Negro;Drama;8.0
+2016;La La Land;Musical;8.0
+2006;Casino Royale;Accion;8.0
+2015;The Revenant;Aventura;8.0
+2008;Slumdog Millionaire;Drama;8.0
+2017;La Forma del Agua;Fantasia;7.3
+2019;Joker;Drama;8.5
+2011;Harry Potter y las Reliquias de la Muerte Parte 2;Fantasia;8.1
+2007;Ratatouille;Animacion;8.1
+2015;Intensamente;Animacion;8.2
+2017;Logan;Accion;8.1
+2014;El Gran Hotel Budapest;Comedia;8.1
+2017;Dunkerque;Guerra;7.9
+2001;Donnie Darko;Drama;8.0
+2013;El Lobo de Wall Street;Comedia;8.2
+2010;Como Entrenar a tu Dragon;Animacion;8.1
+1999;Toy Story 2;Animacion;7.9
+2018;Isla de Perros;Animacion;7.9
+2015;Del Reves;Animacion;8.2
+2019;Historia de un Matrimonio;Drama;7.9
+2018;Bohemian Rhapsody;Musical;7.9
+2015;Relatos Salvajes;Drama;8.1
+2017;Rush;Deporte;8.1
+2016;Deadpool;Accion;8.0
+2017;Deadpool 2;Accion;7.7
+2017;La Bella y la Bestia;Fantasia;7.1
+2011;Rango;Animacion;7.3
+2016;Vaiana;Animacion;7.6
+2019;La Odisea de los Giles;Drama;7.7
+2017;Lost in Translation;Drama;7.7
+1997;El Quinto Elemento;Sci-Fi;7.7
+2017;Thor: Ragnarok;Accion;7.9
+2019;Abominable;Animacion;7.0
+2019;Malefica: Dueña del Mal;Fantasia;6.6
+2019;Godzilla II: El Rey de los Monstruos;Sci-Fi;6.0
+2017;El Ultimo Guerrero;Accion;6.2
+2019;Cold Pursuit;Accion;6.2
+2015;Truman;Drama;7.6
+2018;Hunter Killer;Accion;6.6
+2011;Thor;Accion;7.0
+2017;Life: Vida Inteligente;Sci-Fi;6.6
+2017;El Maestro;Drama;7.3
+2012;El Vuelo;Drama;7.3
+2018;Neruda;Biografico;7.0
+2019;El Hijo;Sci-Fi;6.2
+2017;La Torre Oscura;Fantasia;5.6
+2016;Alicia a Traves del Espejo;Fantasia;6.2
+2018;Valerian y la Ciudad de los Mil Planetas;Sci-Fi;6.5
+2017;El Presidente;Drama;6.3
+2019;Toy Story 4;Animacion;7.8
+2013;Frozen;Animacion;7.5
+2013;El Conjuro;Terror;7.5
+2009;Harry Potter y el Misterio del Principe;Fantasia;7.5
+2017;It;Terror;7.3
+2017;It;Terror;7.3
+2002;Spider-Man;Accion;7.3
+2017;The Foreigner;Accion;7.0
+2016;Angry Birds: La Pelicula;Animacion;6.3
+2013;Frozen;Animacion;7.4
+2014;Big Hero 6;Animacion;7.8
+2018;Un Lugar Tranquilo;Terror;7.5
+2012;Looper;Sci-Fi;7.4
+2011;El Origen del Planeta de los Simios;Sci-Fi;7.6
+2018;Ready Player One;Sci-Fi;7.4
+2017;Upgrade: Maquina Asesina;Sci-Fi;7.5
+2017;Annabelle 2: La Creacion;Terror;6.5
+2019;La Maldicion de la Llorona;Terror;5.3
+2018;El Cascanueces y los Cuatro Reinos;Fantasia;5.5
+2017;La Gran Muralla;Accion;6.0
+2014;Into the Woods;Fantasia;6.0
+2019;Triple Frontera;Accion;6.4
+2019;Abominable;Animacion;7.0
+2016;Zootopia;Animacion;8.0
+2015;Sicario;Accion;7.6
+2017;Dunkerque;Guerra;7.9
+2019;1917;Guerra;8.3
+2017;Baby Driver;Accion;7.6
+2015;Home: No Hay Lugar Como el Hogar;Animacion;6.6
+2014;Big Hero 6;Animacion;7.8
+2018;Ready Player One;Sci-Fi;7.4
+2016;Animales Fantasticos y Donde Encontrarlos;Fantasia;7.4
+2017;Frozen;Animacion;7.5
+2014;Frozen: Fiebre Congelada;Animacion;7.0
+2016;Animales Fantasticos y Donde Encontrarlos;Fantasia;7.4
+2016;La Llegada;Sci-Fi;7.9
+2018;Aniquilacion;Sci-Fi;6.8
+2018;Han Solo: Una Historia de Star Wars;Sci-Fi;6.9
+2017;Blade Runner 2049;Sci-Fi;8.0
+2015;La Patota;Drama;6.6
+2018;Tau;Sci-Fi;5.8
+2019;IO: Sola en la Tierra;Sci-Fi;4.7
+2019;Alita: Battle Angel;Sci-Fi;7.3
+2018;Rampage: Devastacion;Sci-Fi;6.1
+2017;The Space Between Us;Sci-Fi;6.4
+2018;Black Panther;Accion;7.3
+2017;Jumanji: En la Selva;Aventura;6.9
+2015;Mision Rescate;Sci-Fi;8.0
+2013;Rush;Deporte;8.1
+2019;Capitana Marvel;Sci-Fi;6.8
+2019;Capitana Marvel;Accion;6.8
+2015;El Renacido;Aventura;8.0
+2017;Prisioneros;Suspenso;8.1
+2017;War for the Planet of the Apes;Accion;7.4
+2016;Doctor Strange;Sci-Fi;7.5
+2013;El Lobo de Wall Street;Comedia;8.2
+2017;La Forma del Agua;Fantasia;7.3
+2017;Coco;Animacion;8.4
+2019;Avengers: Endgame;Accion;8.4
+2017;Transformers: El Ultimo Caballero;Accion;5.2
+2019;Malefica: Dueña del Mal;Fantasia;6.6
+2018;La Luz de Mis Ojos;Drama;7.1
+2018;La Forma del Agua;Fantasia;7.3
+2017;La Torre Oscura;Fantasia;5.6
+2016;Alicia a Traves del Espejo;Fantasia;6.2
+2019;Proyecto Gemini;Sci-Fi;5.7
+2018;Slender Man;Terror;3.2
+2017;El Presidente;Drama;6.3
+2018;Upgrade: Maquina Asesina;Sci-Fi;7.5
+2017;Annabelle 2: La Creacion;Terror;6.5
+2019;La Maldicion de la Llorona;Terror;5.3
+2018;El Habitante;Terror;5.6
+2017;Veronica;Terror;6.2
+2017;La Gran Muralla;Accion;6.0
+2018;El Justiciero 2;Accion;6.7
+2018;Hunter Killer;Accion;6.6
+2015;Minions;Animacion;6.4
+2018;Tau;Sci-Fi;5.8
+2019;IO: Sola en la Tierra;Sci-Fi;4.7
+2018;La Quietud;Drama;6.1
+2017;La Liga de la Justicia;Sci-Fi;6.1
+2017;La Liga de la Justicia;Accion;6.1
+2019;6 Underground;Accion;6.1
+2018;Proyecto Rampage;Accion;6.1
+2017;Casi Leyendas;Comedia;6.1
+2019;La Misma Sangre;Suspenso;6.0
+2014;Into the Woods;Fantasia;6.0
+2019;Godzilla II: El Rey de los Monstruos;Sci-Fi;6.0
+1992;Reservoir Dogs;Crimen;8.3
+2016;La Llegada;Sci-Fi;7.9
+2017;Blade Runner 2049;Sci-Fi;8.0
+2012;Los Vengadores;Accion;8.0
+2013;El Lobo de Wall Street;Comedia;8.2
+2011;Rango;Animacion;7.3
+2018;Bohemian Rhapsody;Musical;7.9
+2015;Del Reves;Animacion;8.2
+2013;Gru 2, Mi Villano Favorito;Animacion;7.4
+2018;Ready Player One;Sci-Fi;7.4
+2015;El Principito;Fantasia;7.7
+2019;Historia de un Matrimonio;Drama;7.9
+2010;Enredados;Animacion;7.7
+2012;Looper;Sci-Fi;7.4
+2017;Lost in Translation;Drama;7.7
+1997;El Quinto Elemento;Sci-Fi;7.7
+2017;Thor: Ragnarok;Accion;7.9
+2017;Roma;Drama;7.7
+2016;Vaiana;Animacion;7.6
+2011;El Origen del Planeta de los Simios;Sci-Fi;7.6
+2010;Mi Villano Favorito;Animacion;7.6
+2015;El Puente de los Espias;Drama;7.6
+2016;Moana;Animacion;7.6
+2017;Baby Driver;Accion;7.6
+2009;Zombieland;Comedia;7.6
+2008;Kung Fu Panda;Animacion;7.6
+2006;El Ilusionista;Suspenso;7.6
+2017;Rush;Deporte;8.1
+2019;Black Panther;Accion;7.3
+2014;El Francotirador;Guerra;7.3
+2017;La Forma del Agua;Fantasia;7.3
+2017;It;Terror;7.3
+2011;Rango;Animacion;7.3
+2002;Spider-Man;Accion;7.3
+2017;The Accountant: El Contador;Accion;7.3
+2012;El Vuelo;Drama;7.3
+2018;Alita: Battle Angel;Sci-Fi;7.3
+2019;Midsommar;Terror;7.1
+2017;Sing: Ven y Canta;Animacion;7.1
+2012;Valiente;Animacion;7.1
+2018;La Luz de Mis Ojos;Drama;7.1
+2012;El Aro;Terror;7.1
+2015;El Principito;Fantasia;7.7
+2013;Gru 2, Mi Villano Favorito;Animacion;7.4
+2016;Animales Fantasticos y Donde Encontrarlos;Fantasia;7.4
+2016;Doctor Strange;Sci-Fi;7.5
+2017;Un Lugar en Silencio;Terror;7.5
+2013;El Conjuro;Terror;7.5
+2009;Harry Potter y el Misterio del Principe;Fantasia;7.5
+2017;Frozen;Animacion;7.5
+2017;Upgrade: Maquina Asesina;Sci-Fi;7.5
+2018;Un Lugar Tranquilo;Terror;7.5
+2017;Annabelle 2: La Creacion;Terror;6.5
+2016;La Vida Secreta de tus Mascotas;Animacion;6.5
+2015;La Cumbre Escarlata;Terror;6.5
+2019;Triple Frontera;Accion;6.4
+2015;Minions;Animacion;6.4
+2017;The Space Between Us;Sci-Fi;6.4
+2019;Rojo;Drama;6.4
+2019;Angel Has Fallen;Accion;6.4
+2015;Papeles en el Viento;Comedia;6.8
+2018;Aniquilacion;Sci-Fi;6.8
+2019;Capitana Marvel;Sci-Fi;6.8
+2019;El Rey Leon;Animacion;6.8
+2019;El Rey Leon;Fantasia;6.8
+2015;Babe, el Cerdito Valiente;Familia;6.8
+2013;Thor: Un Mundo Oscuro;Accion;6.8
+2017;Jumanji: En la Selva;Aventura;6.9
+2018;Han Solo: Una Historia de Star Wars;Sci-Fi;6.9
+2015;Cenicienta;Fantasia;6.9
+2016;La Bruja;Terror;6.9
+2011;Capitan America: El Primer Vengador;Accion;6.9
+2012;El Sorprendente Hombre Araña;Accion;6.9
+2011;Thor;Accion;7.0
+2019;Aladdin;Fantasia;7.0
+2010;Iron Man 2;Accion;7.0
+2014;Frozen: Fiebre Congelada;Animacion;7.0
+2016;Passengers;Sci-Fi;7.0
+2015;El Clan;Drama;7.0
+2014;Malefica;Fantasia;7.0
+2018;Neruda;Biografico;7.0
+2019;El Angel;Drama;7.0
+2018;Ant-Man y la Avispa;Accion;7.1
+2013;El Gran Gatsby;Drama;7.2
+2017;Sing: Ven y Canta;Animacion;7.1
+2012;Valiente;Animacion;7.1
+2015;Home: No Hay Lugar Como el Hogar;Animacion;6.6
+2016;Koblic;Drama;6.5
+1999;El Proyecto de la Bruja de Blair;Terror;6.5
+2017;Annabelle 2: La Creacion;Terror;6.5
+2017;Frozen;Animacion;7.5
+2013;Frozen;Animacion;7.5
+2013;El Conjuro;Terror;7.5
+2009;Harry Potter y el Misterio del Principe;Fantasia;7.5
+2017;It;Terror;7.3
+2017;It;Terror;7.3
+2012;Looper;Sci-Fi;7.4
+2013;Gru 2, Mi Villano Favorito;Animacion;7.4
+2016;Animales Fantasticos y Donde Encontrarlos;Fantasia;7.4
+2016;Doctor Strange;Sci-Fi;7.5
+2017;Un Lugar en Silencio;Terror;7.5
+2013;El Conjuro;Terror;7.5
+2009;Harry Potter y el Misterio del Principe;Fantasia;7.5
+2017;Frozen;Animacion;7.5
+2017;Upgrade: Maquina Asesina;Sci-Fi;7.5
+2018;Un Lugar Tranquilo;Terror;7.5
+2017;Annabelle 2: La Creacion;Terror;6.5
+2016;La Vida Secreta de tus Mascotas;Animacion;6.5
+2015;La Cumbre Escarlata;Terror;6.5
