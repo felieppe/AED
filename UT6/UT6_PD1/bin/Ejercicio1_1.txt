@@ -1,0 +1,6 @@
+Nodo Trie: Cada nodo del trie tiene:
+    -Un arreglo de 26 referencias (uno para cada letra del alfabeto a..z).
+    -Un indicador de final de palabra para marcar el final de una palabra.
+    -Se almacena información adicional como el número de página(s) donde aparece la palabra.
+    
+Con esta estructura, podemos representar eficientemente un conjunto de palabras, facilitando la búsqueda y la inserción.

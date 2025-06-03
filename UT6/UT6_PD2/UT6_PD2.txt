@@ -1,0 +1,3 @@
+¿Se condicen estos resultados con los conceptos vistos en forma teórica?
+
+Si, los resultados obtenidos tras graficarlo sin coinciden con los conceptos vistos en clase, ya que cuanto mayor sea el factor de carga más lento será cualquier tipo de operación. 
