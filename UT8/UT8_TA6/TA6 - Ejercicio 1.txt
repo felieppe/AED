@@ -1,0 +1,36 @@
+1. Revisa la forma abstracta del algoritmo de Kruskal en la bibliografía provista, analizando los pasos
+que se realizan sobre el ejemplo dado
+
+El algoritmo sigue ciertos pasos los cuales tienen un orden 
+- Ordenar todas las aristas del grafo en orden creciente según su peso.
+- Inicializar el MST como un conjunto vacío.
+- Iterar sobre las aristas ordenadas y añadir la arista al MST si no forma un ciclo con las aristas ya en el MST. Se utiliza una estructura de conjuntos disjuntos (Encontrar Unión) para gestionar y verificar los ciclos.
+
+MST = Árbol Abarcador de Costo Mínimo
+
+2. Analiza y documenta las estructuras de datos necesarias para implementar este algoritmo. Describir
+estas estructuras en un DOCUMENTO COMPARTIDO. ¿Se pueden utilizar las estructuras que ya
+tenemos? ¿qué habría que agregarles?
+
+Para implementar el algoritmo de Kruskal, necesitaremos las siguientes estructuras de datos:
+- Grafo: Representado como una lista de aristas, donde cada arista es una tupla (u, v, peso).
+- Conjuntos Disjuntos (Encontrar Unión): Para gestionar la conexión de los nodos y detectar ciclos.
+        - Encontrar(u): Encuentra el representante del conjunto al que pertenece u.
+	- Unión(u, v): Une los conjuntos que contienen a u y v.
+- Lista de Aristas: Para almacenar y ordenar las aristas por peso.
+
+3. Desarrolla el algoritmo en seudocódigo detallado, haciendo uso explícito de las estructuras
+identificadas
+
+Algoritmo Kruskal(Grafo G)
+    Ordenar las aristas de G en orden creciente por peso
+    Inicializar un conjunto ConjuntosDisjuntos para los nodos de G
+    MST = conjunto vacío
+    para cada arista (peso, u, v) en las aristas ordenadas de G:
+        si encontrar(u) ≠ encontrar(v):
+            añadir (u, v) a MST
+            unión(u, v)
+	fin si
+    fin para
+    Devolver MST
+Fin Algoritmo

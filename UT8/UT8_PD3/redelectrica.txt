@@ -1,0 +1,2 @@
+Algoritmo utilizado: Kruskal
+Costo total: 0

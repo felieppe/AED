@@ -1,0 +1,14 @@
+4. Investiga el orden del tiempo de ejecución del algoritmo que has desarrollado.
+
+El tiempo de ejecucipon de este algoritmo es de O(ElogE), de modo que E representa el numero de aristas, ademas de que utilizo la estructura de Quicksort uno de los algoritmos que vimos en la ut9, que tiene un orden de O(ElogE). Mientras que para cada vértice, se crea un conjunto disjunto, lo cual tiene una complejidad de O(V), donde V es el número de vértices. Por ende si hacemos la suma de estos, nos quedamos con el peor caso el cual es O(ElogE).
+
+5. ¿puedes encontrar otras alternativas de implementación mejores?
+
+Podria implementar el uso del algoritmo de prim, de modo que este es más eficiente en grafos (donde E es grande en comparación con V). 
+Adsemás que la utilización del algoritmo de Prim es una buena alternativa a considerar en caso de que no podamos utilizar el algoritmo de Kruskal
+
+6. ¿cuán importante es el consumo de memoria asociado?
+
+El consumo de memoria es un punto importante a considerar, especialmente cuando trabajamos con grafos muy grafos. Esto debido a que cuanto mayor
+sea el tamaño de entrada de elementos, mayor va a ser el tiempo de ejecución, por eso es sumamente importante crear algoritmos con el menor tiempo 
+de ejecución, como por ejemplo O(n) o O(logN).
